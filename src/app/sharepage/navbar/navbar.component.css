@@ -1,22 +1,10 @@
-/* *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-scroll-behavior: smooth;
-} */
-div{
-    justify-content: space-around;
-    display: flex;
-    background: blueviolet;
-    color: #ffff;
-    /* margin-top:-20; */
+/* .navbar-light  .navbar-nav .nav-link */
+.nav-link{
+    color: var(--secondary-color);
 }
-div ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-ul li{
-    list-style: none;
-    padding-left: 20px;
+
+.active-link
+{
+    color:var(--primary-color);
+    /* font-weight: bold; */
 }
